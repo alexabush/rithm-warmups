@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom right, rgb(216, 64, 106), white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: white;
+  padding: 15px;
+  width: 60%;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#tooltip {
+  background-color: green;
+}
+
+#tooltip:hover {
+  background-color: red;
+}
+
+.tooltipDiv {
+  background-color: rgb(0, 190, 25);
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 32%;
+  /* visibility: hidden; */
+}
+
+.jokeExplainerText {
+  background-color: rgb(0, 255, 66);
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.explaination {
+  padding: 10px;
+}
